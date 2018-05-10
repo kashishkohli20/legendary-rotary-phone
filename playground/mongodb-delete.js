@@ -1,6 +1,6 @@
 const {MongoClient, ObjectID} = require('mongodb');
 
-let url ='mongodb://localhost:27017';
+let url ='mongodb://localhost:27017/TodoApp';
 
 MongoClient.connect(url, (err, client) => {
 	if (err) {
